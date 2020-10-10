@@ -1,7 +1,8 @@
 // console.log("Welcome to the main module")
 import {createPlan} from "./plan.js"
 import {createAsparagus} from "./seeds/asparagus.js"
-import {addPlant} from "./scripts/field.js"
+import {addPlant} from "/scripts/field.js"
+import {usePlants } from "/scripts/field.js"
 
 const yearlyPlan = createPlan();
 console.log(yearlyPlan);
@@ -9,7 +10,7 @@ console.log(yearlyPlan);
 const asparagusseed = createAsparagus()
 console.log (asparagusseed);
 
-const seedObj = {
+const seeds1 = {
     seed1: "corn",
     seed2: "potato",
     seed3: "asparagus",
@@ -17,8 +18,9 @@ const seedObj = {
     seed5: "soybean",
     seed6: "sunflower"
 }
-addPlant(seedObj);
+ addPlant("seeds1");
+
 
 const plants = usePlants();
-console.log(plants);
+console.log (plants);
 

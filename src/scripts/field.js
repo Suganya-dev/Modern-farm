@@ -1,9 +1,8 @@
 const fieldfarm = [];
 export const addPlant =(seedObj) => {
-    fieldfarm.push(seeds);
+    fieldfarm.push(seedObj);
 }
 export const usePlants =() => {
-returns `
-fieldfarm [] `
+ return `fieldfarm[] `
  
 }
