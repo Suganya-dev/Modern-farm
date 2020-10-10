@@ -14,7 +14,7 @@ export const createPlan = () => {
     return plan
 }
 
-const yearlyPlan = plan()
+const yearlyPlan = createPlan()
 console.log(yearlyPlan)
 
 
@@ -26,7 +26,7 @@ console.log(yearlyPlan)
     is not relevant for you implementing your code
     for this project.
 */
-const crop = function* () {
+const crop = function*  () {
     while (true) {
         const typeIdx = Math.floor(Math.random() * types.length)
         yield types[typeIdx]

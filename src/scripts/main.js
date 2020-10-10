@@ -1,4 +1,4 @@
 console.log("Welcome to the main module")
-import {createPlan} "./from Plan.js"
+import {createPlan} from './seeds/Plan.js'
 
 createPlan()
