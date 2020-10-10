@@ -7,3 +7,6 @@ export const createAsparagus =() => {
     }
     `
 }
+
+const asparagusseed = createAsparagus()
+console.log(asparagusseed)
