@@ -5,17 +5,15 @@ export const createPlan = () => {
 
     for (let index = 0; index < 3; index++) {
         const row = []
-        //for (let j = 0; j < 6; j++) {
-            row.push(crop.next().value);
-        //}
+        // //for (let j = 0; j < 6; j++) {
+        //     row.push(crop.next().value);
+        // //}
         plan.push(row)
     }
 
     return plan
 }
 
-const yearlyPlan = createPlan();
-console.log(yearlyPlan)
 
 
 
