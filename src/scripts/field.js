@@ -1,8 +1,14 @@
-const fieldfarm = [];
+let  fieldfarm = [];
 export const addPlant =(seedObj) => {
-    fieldfarm.push(seedObj);
+    if(Array.isArray(seedObj) === true){
+        fieldfarm.push(element);
+    }
+    else{
+        fieldfarm.push(seedObj);
+    }
+   
 }
 export const usePlants =() => {
- return `fieldfarm[] `
+ return fieldfarm .slice()
  
-}
+};

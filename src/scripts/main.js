@@ -10,15 +10,9 @@ console.log(yearlyPlan);
 const asparagusseed = createAsparagus()
 console.log (asparagusseed);
 
-const seeds1 = {
-    seed1: "corn",
-    seed2: "potato",
-    seed3: "asparagus",
-    seed4: "wheat",
-    seed5: "soybean",
-    seed6: "sunflower"
-}
- addPlant("seeds1");
+
+ const pot =addPlant("potato")
+ console.log(pot);
 
 
 const plants = usePlants();
