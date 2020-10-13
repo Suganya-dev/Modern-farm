@@ -1,4 +1,4 @@
-let  fieldfarm = [];
+let fieldfarm = []
 export const addPlant =(seedObj) => {
     if(Array.isArray(seedObj) === true){
         fieldfarm.push(element);
