@@ -6,7 +6,7 @@ export const createPlan = () => {
     for (let index = 0; index < 3; index++) {
         const row = []
         for (let j = 0; j < 6; j++) {
-            row.push(crop.next().value)
+            row.push(crop.next().value);
         }
         plan.push(row)
     }
@@ -14,8 +14,6 @@ export const createPlan = () => {
     return plan
 }
 
-const yearlyPlan = createPlan()
-console.log(yearlyPlan)
 
 
 
