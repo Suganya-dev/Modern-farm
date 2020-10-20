@@ -4,6 +4,7 @@ import {createAsparagus} from "./seeds/asparagus.js"
 import {addPlant} from "./field.js"
 import {usePlants } from "./field.js"
 import {plantSeeds} from "./tractor.js"
+import {Catalog} from"./Catalog.js"
 
 const yearlyPlan = createPlan();
 console.log("this is the yearly plan", yearlyPlan);
@@ -13,6 +14,7 @@ console.log (asparagusseed);
 
 
   addPlant("asparagusseed")
+  Catalog("potato")
 
 
 
