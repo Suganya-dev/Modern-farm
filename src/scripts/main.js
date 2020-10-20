@@ -1,4 +1,7 @@
-// console.log("Welcome to the main module")
+ cs-dailyfarm1
+console.log("Welcome to the main module")
+import {createPlan} from './seeds/Plan.js'
+
 import {createPlan} from "./plan.js"
 import {createAsparagus} from "./seeds/asparagus.js"
 import {addPlant} from "./field.js"
@@ -6,6 +9,7 @@ import {usePlants } from "./field.js"
 import {plantSeeds} from "./tractor.js"
 import {Catalog} from"./Catalog.js"
 import {harvestPlants} from"./harvester.js"
+
 
 const yearlyPlan = createPlan();
 console.log("this is the yearly plan", yearlyPlan);
